@@ -1,0 +1,59 @@
+/*PC*/
+@media(min-width : 64em){ /*use to "em" will good with TrinhDuyet*/
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
+/*TABLET*/
+@media(min-width : 46.25em) and (max-width:63.9375em) {
+    #header .mobile-menu-btn{
+        display: none;
+    } 
+}
+/*Mobile*/
+@media(max-width : 46.1875em){
+    .s-full-width , 
+    .s-colums-full{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+   
+    #header {
+        overflow: hidden; 
+    }
+    
+
+    #header .search-btn {
+        display: none;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #navi {
+        display: block; /*sau khi fix xong thì do chiếm hết chiều ngang khiến cho mất luôn nút icon*/
+    }
+    #navi > li{ 
+        display: block;
+    }
+    #navi > li a {
+        padding: 1px 24px;
+    }
+    /*Chưa Fixed được :(((*/
+    #navi > li:first-child{ 
+        display: inline-block;
+    }
+    #navi .subnavi {  
+        position: initial;
+        background: #333;
+    }
+    #navi .subnavi a {
+        color:#fff ;
+        padding: 5px 41px;
+    }
+    .contact-form{
+        margin-top: 16px;
+    }
+  
+}
